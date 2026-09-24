@@ -1,0 +1,76 @@
+1. List Operations
+fruits = ["Apple", "Banana", "Mango"]
+
+print("Original List:", fruits)
+
+fruits.append("Orange")
+print("After Adding:", fruits)
+
+fruits.remove("Banana")
+print("After Removing:", fruits)
+
+Output:
+Original List: ['Apple', 'Banana', 'Mango']
+After Adding: ['Apple', 'Banana', 'Mango', 'Orange']
+After Removing: ['Apple', 'Mango', 'Orange']
+
+2. Tuple Operations
+numbers = (10, 20, 30, 40, 50)
+
+print("Tuple:", numbers)
+print("First Element:", numbers[0])
+print("Last Element:", numbers[-1])
+print("Length:", len(numbers))
+
+Output:
+Tuple: (10, 20, 30, 40, 50)
+First Element: 10
+Last Element: 50
+Length: 5
+
+3. Set Operations
+set1 = {1, 2, 3, 4}
+set2 = {3, 4, 5, 6}
+
+print("Set 1:", set1)
+print("Set 2:", set2)
+print("Union:", set1 | set2)
+print("Intersection:", set1 & set2)
+
+Output:
+Set 1: {1, 2, 3, 4}
+Set 2: {3, 4, 5, 6}
+Union: {1, 2, 3, 4, 5, 6}
+Intersection: {3, 4}
+
+4. Dictionary Operations
+student = {
+    "name": "Rahul",
+    "age": 20,
+    "course": "Python"
+}
+
+print("Student Details:")
+print("Name:", student["name"])
+print("Age:", student["age"])
+print("Course:", student["course"])
+
+Output:
+Student Details:
+Name: Rahul
+Age: 20
+Course: Python
+
+5. Adding and Updating Dictionary Values
+student = {
+    "name": "Rahul",
+    "age": 20
+}
+
+student["course"] = "Python"
+student["age"] = 21
+
+print("Student Details:", student)
+
+Output:
+Student Details: {'name': 'Rahul', 'age': 21, 'course': 'Python'}
